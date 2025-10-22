@@ -35,3 +35,32 @@ El sitio incluye secciones de presentación, productos, historia y contacto, apl
 
 ## 🗂️ Estructura del proyecto
 
+donfermin/
+├── index.html
+├── styles/
+│ └── style.css
+├── scripts/
+│ └── main.js
+└── assets/
+└── (imágenes)
+
+---
+
+## 🧰 Tecnologías utilizadas
+
+- **HTML5** — estructura y contenido  
+- **CSS3** — diseño, colores y tipografía  
+- **JavaScript** — interactividad y cálculo de precios  
+
+---
+
+## 👥 Integrantes del grupo
+
+- **Mateo Rodríguez**  
+- **Martín Cardinali**
+
+**Profesor:** Juan Fleming  
+**Instituto Superior de Formación Técnica N°59**  
+📍 General Madariaga — 2025
+
+---
