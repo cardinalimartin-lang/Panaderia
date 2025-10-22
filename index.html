@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panadería Don Fermín</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="scripts/main.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Panadería Don Fermín</h1>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#productos">Productos</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="inicio">
+      <img src="assets/banner.jpg" alt="Panadería Don Fermín">
+      <p>Pan artesanal, fresco cada mañana. Tradición y sabor en el corazón del barrio.</p>
+    </section>
+
+    <section id="productos" class="productos">
+      <h2>Nuestros Productos</h2>
+
+      <div class="producto">
+        <h3>Medialuna dulce</h3>
+        <p>Manteca, glaseado suave</p>
+        <p class="precio">$700</p>
+        <button onclick="verPrecio('Medialuna dulce', 700)">Ver precio</button>
+      </div>
+
+      <div class="producto">
+        <h3>Vigilante</h3>
+        <p>Con dulce de membrillo y pastelera</p>
+        <p class="precio">$900</p>
+        <button onclick="verPrecio('Vigilante', 900)">Ver precio</button>
+      </div>
+
+      <div class="producto">
+        <h3>Torta de coco</h3>
+        <p>Molde 26 cm, 12 porciones</p>
+        <p class="precio">$6000</p>
+        <button onclick="verPrecio('Torta de coco', 6000)">Ver precio</button>
+      </div>
+
+      <div class="producto">
+        <h3>Pan francés (kg)</h3>
+        <p>Clásico, crujiente</p>
+        <p class="precio">$2000</p>
+        <button onclick="verPrecio('Pan francés', 2000)">Ver precio</button>
+      </div>
+
+      <div class="producto">
+        <h3>Chipá (100g)</h3>
+        <p>En pequeñas bolsas, de queso</p>
+        <p class="precio">$500</p>
+        <button onclick="verPrecio('Chipá', 500)">Ver precio</button>
+      </div>
+
+      <div class="producto">
+        <h3>Sándwich de miga</h3>
+        <p>Jamón y queso, triple</p>
+        <p class="precio">$1200</p>
+        <button onclick="verPrecio('Sándwich de miga', 1200)">Ver precio</button>
+      </div>
+    </section>
+
+    <section id="nosotros" class="nosotros">
+      <h2>Sobre Nosotros</h2>
+      <p>
+        Desde 1985, Panadería Don Fermín elabora productos frescos y artesanales con recetas tradicionales. 
+        Nos enorgullece ser parte del barrio, compartiendo cada día el aroma del pan recién hecho.
+      </p>
+    </section>
+
+    <section id="contacto" class="contacto">
+      <h2>Contacto</h2>
+      <p>📞 Tel: (02267) 55-1234</p>
+      <p>📍 Dirección: Belgrano 333, General Madariaga</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Desarrollado por [Tu Nombre]</p>
+  </footer>
+</body>
+</html>
